@@ -10,12 +10,12 @@ view: ads_compare {
                 sum(i.impressions) as impresssions,
                 sum(i.clicks) as clicks,
                 'Facebook Ads'::text as source
-          from  facebook_ads.ads a
-          join  facebook_ads.insights i
+          from  segment.facebook_ads.ads a
+          join  segment.facebook_ads.insights i
             on  a.id = i.ad_id
-          join  facebook_ads.campaigns c
+          join  segment.facebook_ads.campaigns c
             on  a.campaign_id = c.id
-          join  facebook_ads.ad_sets ad
+          join  segment.facebook_ads.ad_sets ad
             on  a.adset_id = ad.id
       group by  1,2,3,4
       ),
@@ -28,12 +28,12 @@ view: ads_compare {
                 sum(apr.impressions) as impresssions,
                 sum(apr.clicks) as clicks,
                 'Google Ad Words'::text as source
-          from  adwords.ads a
-          join  adwords.ad_performance_reports apr
+          from  segment.adwords.ads a
+          join  segment.adwords.ad_performance_reports apr
             on  a.id = apr.ad_id
-          join  adwords.ad_groups g
+          join  segment.adwords.ad_groups g
             on  a.ad_group_id = g.id
-          join  adwords.campaigns c
+          join  segment.adwords.campaigns c
             on  g.campaign_id = c.id
       group by  1,2,3,4
       )
