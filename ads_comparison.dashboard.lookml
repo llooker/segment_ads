@@ -4,7 +4,7 @@
   elements:
   - name: Clicks Breakdown
     title: Clicks Breakdown
-    model: facebook_ads
+    model: ads
     explore: ads_compare
     type: looker_pie
     fields:
@@ -45,7 +45,7 @@
     height: 5
   - name: Impressions Breakdown
     title: Impressions Breakdown
-    model: facebook_ads
+    model: ads
     explore: ads_compare
     type: looker_pie
     fields:
@@ -86,7 +86,7 @@
     height: 5
   - name: Spend Breakdown
     title: Spend Breakdown
-    model: facebook_ads
+    model: ads
     explore: ads_compare
     type: looker_pie
     fields:
@@ -127,7 +127,7 @@
     height: 5
   - name: Ads Count Breakdown
     title: Ads Count Breakdown
-    model: facebook_ads
+    model: ads
     explore: ads_compare
     type: looker_pie
     fields:
@@ -168,7 +168,7 @@
     height: 5
   - name: Overall Ads Count
     title: Overall Ads Count
-    model: facebook_ads
+    model: ads
     explore: ads_compare
     type: single_value
     fields:
@@ -213,7 +213,7 @@
     height: 2
   - name: Overall Impressions
     title: Overall Impressions
-    model: facebook_ads
+    model: ads
     explore: ads_compare
     type: single_value
     fields:
@@ -258,7 +258,7 @@
     height: 2
   - name: Overall Clicks
     title: Overall Clicks
-    model: facebook_ads
+    model: ads
     explore: ads_compare
     type: single_value
     fields:
@@ -305,7 +305,7 @@
     height: 2
   - name: Overall Spend
     title: Overall Spend
-    model: facebook_ads
+    model: ads
     explore: ads_compare
     type: single_value
     fields:
@@ -350,7 +350,7 @@
     height: 2
   - name: Spend and CPC
     title: Spend and CPC
-    model: facebook_ads
+    model: ads
     explore: ads_compare
     type: looker_column
     fields:
@@ -428,7 +428,7 @@
     height: 7
   - name: Campaign Overview
     title: Campaign Overview
-    model: facebook_ads
+    model: ads
     explore: ads_compare
     type: table
     fields:
@@ -545,7 +545,7 @@
     height: 2
   - name: Overall Campaign Count
     title: Overall Campaign Count
-    model: facebook_ads
+    model: ads
     explore: ads_compare
     type: single_value
     fields:
@@ -590,7 +590,7 @@
     height: 2
   - name: Overall Cost per Click
     title: Overall Cost per Click
-    model: facebook_ads
+    model: ads
     explore: ads_compare
     type: single_value
     fields:
@@ -635,7 +635,7 @@
     height: 2
   - name: Top 25 Ads by Number of Clicks
     title: Top 25 Ads by Number of Clicks
-    model: facebook_ads
+    model: ads
     explore: ads_compare
     type: table
     fields:
@@ -695,7 +695,7 @@
     height: 2
   - name: Ad Performance
     title: Ad Performance
-    model: facebook_ads
+    model: ads
     explore: ads_compare
     type: looker_bar
     fields:

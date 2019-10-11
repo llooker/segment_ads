@@ -4,7 +4,7 @@
   elements:
   - name: Total Clicks
     title: Total Clicks
-    model: facebook_ads
+    model: ads
     explore: facebook_insights
     type: single_value
     fields:
@@ -27,7 +27,7 @@
     height: 2
   - name: Total Spend
     title: Total Spend
-    model: facebook_ads
+    model: ads
     explore: facebook_insights
     type: single_value
     fields:
@@ -50,7 +50,7 @@
     height: 2
   - name: Campaign Count
     title: Campaign Count
-    model: facebook_ads
+    model: ads
     explore: facebook_insights
     type: single_value
     fields:
@@ -73,7 +73,7 @@
     height: 2
   - name: Ads Count
     title: Ads Count
-    model: facebook_ads
+    model: ads
     explore: facebook_insights
     type: single_value
     fields:
@@ -96,7 +96,7 @@
     height: 2
   - name: Cost per Click
     title: Cost per Click
-    model: facebook_ads
+    model: ads
     explore: facebook_insights
     type: single_value
     fields:
@@ -119,7 +119,7 @@
     height: 2
   - name: Click Through Rate
     title: Click Through Rate
-    model: facebook_ads
+    model: ads
     explore: facebook_insights
     type: single_value
     fields:
@@ -165,7 +165,7 @@
     height: 2
   - name: Total Impressions
     title: Total Impressions
-    model: facebook_ads
+    model: ads
     explore: facebook_insights
     type: single_value
     fields:
@@ -188,7 +188,7 @@
     height: 2
   - name: Daily Performance
     title: Daily Performance
-    model: facebook_ads
+    model: ads
     explore: facebook_insights
     type: looker_line
     fields:
@@ -276,7 +276,7 @@
     height: 8
   - name: Average Frequency
     title: Average Frequency
-    model: facebook_ads
+    model: ads
     explore: facebook_insights
     type: single_value
     fields:
@@ -299,7 +299,7 @@
     height: 2
   - name: Impressions by Campaign Type
     title: Impressions by Campaign Type
-    model: facebook_ads
+    model: ads
     explore: facebook_insights
     type: looker_pie
     fields:
@@ -386,7 +386,7 @@
     height: 8
   - name: Campaign Performance (Top 10 by Impression Count)
     title: Campaign Performance (Top 10 by Impression Count)
-    model: facebook_ads
+    model: ads
     explore: facebook_insights
     type: looker_column
     fields:
@@ -472,7 +472,7 @@
     height: 8
   - name: Campaign Overview
     title: Campaign Overview
-    model: facebook_ads
+    model: ads
     explore: facebook_insights
     type: table
     fields:

@@ -4,7 +4,7 @@
   elements:
   - name: Average Conversion Rate
     title: Average Conversion Rate
-    model: facebook_ads
+    model: ads
     explore: campaign_performance_reports
     type: single_value
     fields:
@@ -51,7 +51,7 @@
     height: 2
   - name: Average Cost Per Conversion
     title: Average Cost Per Conversion
-    model: facebook_ads
+    model: ads
     explore: campaign_performance_reports
     type: single_value
     fields:
@@ -98,7 +98,7 @@
     height: 2
   - name: Total Cost
     title: Total Cost
-    model: facebook_ads
+    model: ads
     explore: campaign_performance_reports
     type: single_value
     fields:
@@ -145,7 +145,7 @@
     height: 2
   - name: Campaign Funnel
     title: Campaign Funnel
-    model: facebook_ads
+    model: ads
     explore: campaign_performance_reports
     type: looker_column
     fields:
@@ -191,7 +191,7 @@
     height: 8
   - name: Assister Comparison
     title: Assister Comparison
-    model: facebook_ads
+    model: ads
     explore: campaign_performance_reports
     type: looker_bar
     fields:
@@ -238,7 +238,7 @@
     height: 6
   - name: Cost Comparison
     title: Cost Comparison
-    model: facebook_ads
+    model: ads
     explore: campaign_performance_reports
     type: looker_bar
     fields:
@@ -283,7 +283,7 @@
     height: 6
   - name: Conversion Comparison
     title: Conversion Comparison
-    model: facebook_ads
+    model: ads
     explore: campaign_performance_reports
     type: looker_bar
     fields:
@@ -329,7 +329,7 @@
     height: 6
   - name: Cost vs Conversion by Day
     title: Cost vs. Conversion by Day
-    model: facebook_ads
+    model: ads
     explore: campaign_performance_reports
     type: looker_column
     fields:
@@ -384,7 +384,7 @@
     height: 8
   - name: All Ad Groups Full Details
     title: All Ad Groups Full Details
-    model: facebook_ads
+    model: ads
     explore: campaign_performance_reports
     type: table
     fields:
@@ -441,7 +441,7 @@
     height: 4
   - name: Ad Group Keyword Performance
     title: Ad Group Keyword Performance
-    model: facebook_ads
+    model: ads
     explore: ad_performance_reports
     type: table
     fields:
@@ -528,7 +528,7 @@
     height: 4
   - name: Group and Ad Cost Breakdown
     title: Group and Ad Cost Breakdown
-    model: facebook_ads
+    model: ads
     explore: ad_performance_reports
     type: looker_donut_multiples
     fields:
@@ -608,7 +608,7 @@
     height: 8
   - name: Average Cost per Click
     title: Average Cost per Click
-    model: facebook_ads
+    model: ads
     explore: ad_performance_reports
     type: single_value
     fields:

@@ -4,7 +4,7 @@
   elements:
   - name: Total Campaigns
     title: Total Campaigns
-    model: facebook_ads
+    model: ads
     explore: campaign_performance_reports
     type: single_value
     fields:
@@ -50,7 +50,7 @@
     height: 2
   - name: Total Clicks
     title: Total Clicks
-    model: facebook_ads
+    model: ads
     explore: campaign_performance_reports
     type: single_value
     fields:
@@ -96,7 +96,7 @@
     height: 2
   - name: Total Conversions
     title: Total Conversions
-    model: facebook_ads
+    model: ads
     explore: campaign_performance_reports
     type: single_value
     fields:
@@ -142,7 +142,7 @@
     height: 2
   - name: Total Impressions
     title: Total Impressions
-    model: facebook_ads
+    model: ads
     explore: campaign_performance_reports
     type: single_value
     fields:
@@ -188,7 +188,7 @@
     height: 2
   - name: Average Interaction Rate
     title: Average Interaction Rate
-    model: facebook_ads
+    model: ads
     explore: campaign_performance_reports
     type: single_value
     fields:
@@ -234,7 +234,7 @@
     height: 2
   - name: Average Conversion Rate
     title: Average Conversion Rate
-    model: facebook_ads
+    model: ads
     explore: campaign_performance_reports
     type: single_value
     fields:
@@ -280,7 +280,7 @@
     height: 2
   - name: Average Cost Per Conversion
     title: Average Cost Per Conversion
-    model: facebook_ads
+    model: ads
     explore: campaign_performance_reports
     type: single_value
     fields:
@@ -326,7 +326,7 @@
     height: 2
   - name: Campaign Performance
     title: Campaign Performance
-    model: facebook_ads
+    model: ads
     explore: campaign_performance_reports
     type: looker_bar
     fields:
@@ -368,7 +368,7 @@
     height: 8
   - name: Campaign Funnel
     title: Campaign Funnel
-    model: facebook_ads
+    model: ads
     explore: campaign_performance_reports
     type: looker_column
     fields:
@@ -413,7 +413,7 @@
     height: 8
   - name: All Campaigns Full Details
     title: All Campaigns Full Details
-    model: facebook_ads
+    model: ads
     explore: campaign_performance_reports
     type: table
     fields:
@@ -497,7 +497,7 @@
     height: 7
   - name: Impression to Click Conversion Efficency
     title: Impression to Click Conversion Efficency
-    model: facebook_ads
+    model: ads
     explore: campaign_performance_reports
     type: looker_column
     fields:
@@ -547,7 +547,7 @@
     height: 9
   - name: Click to Conversion Efficency
     title: Click to Conversion Efficency
-    model: facebook_ads
+    model: ads
     explore: campaign_performance_reports
     type: looker_column
     fields:
@@ -598,7 +598,7 @@
     height: 9
   - name: Total Cost
     title: Total Cost
-    model: facebook_ads
+    model: ads
     explore: campaign_performance_reports
     type: single_value
     fields:
